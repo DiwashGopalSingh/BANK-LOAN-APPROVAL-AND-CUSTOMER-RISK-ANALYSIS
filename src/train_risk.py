@@ -255,7 +255,6 @@ def run_risk_pipeline() -> None:
 
     # 4. Serialize Risk Model & Scoring Engine
     risk_artifact = {
-        "evaluate_risk_tier_fn": evaluate_risk_tier,
         "kmeans_model": kmeans,
         "scaler": scaler,
         "thresholds": {
